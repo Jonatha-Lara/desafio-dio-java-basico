@@ -23,6 +23,8 @@ public class ContaTerminal {
         System.out.println("Por favor digite o valor do seu primeiro depósito em REAIS R$. ");
         saldo = sc.nextDouble();
 
+        sc.close();
+
         System.out.println("Olá " + nome + ", Obrigado por criar uma conta em nosso banco, sua Agência é: " + agencia +", seu número de conta é: "+ conta +" e seu saldo é R$ " +saldo);
     }
 }
